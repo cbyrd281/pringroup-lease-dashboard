@@ -1,0 +1,130 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f5f5f5"/>
+
+  <!-- Header -->
+  <rect width="1200" height="70" fill="#0D1C38"/>
+  <line x1="0" y1="70" x2="1200" y2="70" stroke="#7492BC" stroke-width="2"/>
+
+  <!-- Header Content (Left) -->
+  <g>
+    <!-- Logo Badge (Gold Square) -->
+    <rect x="20" y="19" width="32" height="32" fill="#C5A84C" rx="4"/>
+    <text x="36" y="42" font-size="10" font-weight="700" fill="#0D1C38" text-anchor="middle">PG</text>
+
+    <!-- Title -->
+    <text x="70" y="45" font-size="18" font-weight="600" fill="white">LEASE TRACKER</text>
+  </g>
+
+  <!-- Header Content (Right) -->
+  <text x="1160" y="45" font-size="12" fill="#A0B2BC" text-anchor="end">Log Out</text>
+
+  <!-- Tabs Container -->
+  <rect y="70" width="1200" height="50" fill="#E8EEF6"/>
+  <line x1="0" y1="120" x2="1200" y2="120" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Tab Buttons -->
+  <g font-size="13" font-weight="500">
+    <!-- Tab 1 Active -->
+    <rect x="0" y="70" width="300" height="50" fill="white"/>
+    <line x1="300" y1="70" x2="300" y2="120" stroke="#ddd" stroke-width="1"/>
+    <line x1="0" y1="120" x2="300" y2="120" stroke="#7492BC" stroke-width="2"/>
+    <text x="150" y="102" fill="#0D1C38" text-anchor="middle" font-weight="600">All Leases</text>
+
+    <!-- Tab 2 -->
+    <rect x="300" y="70" width="300" height="50" fill="#E8EEF6"/>
+    <line x1="600" y1="70" x2="600" y2="120" stroke="#ddd" stroke-width="1"/>
+    <text x="450" y="102" fill="#5A6E82" text-anchor="middle">12-Month</text>
+
+    <!-- Tab 3 -->
+    <rect x="600" y="70" width="300" height="50" fill="#E8EEF6"/>
+    <line x1="900" y1="70" x2="900" y2="120" stroke="#ddd" stroke-width="1"/>
+    <text x="750" y="102" fill="#5A6E82" text-anchor="middle">6-Month</text>
+
+    <!-- Tab 4 -->
+    <rect x="900" y="70" width="300" height="50" fill="#E8EEF6"/>
+    <text x="1050" y="102" fill="#5A6E82" text-anchor="middle">4-Month</text>
+  </g>
+
+  <!-- Grid Header -->
+  <rect y="120" width="1200" height="40" fill="#E8EEF6"/>
+  <line x1="0" y1="160" x2="1200" y2="160" stroke="#5A6E82" stroke-width="2"/>
+
+  <g font-size="12" font-weight="600" fill="#0D1C38">
+    <text x="40" y="148">Tenant Name</text>
+    <text x="400" y="148">Address</text>
+    <text x="900" y="148">Days Left</text>
+    <text x="1050" y="148">Broker</text>
+  </g>
+
+  <!-- Grid Row 1 (White) -->
+  <rect y="160" width="1200" height="60" fill="white"/>
+  <line x1="0" y1="220" x2="1200" y2="220" stroke="#E8EEF6" stroke-width="1"/>
+
+  <g font-size="13">
+    <text x="40" y="192" fill="#0D1C38" font-weight="500">Metro Storage</text>
+    <text x="400" y="192" fill="#333">2847 Industrial Way, Chicago, IL</text>
+
+    <!-- Urgent Badge -->
+    <rect x="890" y="172" width="70" height="28" fill="#DC2626" rx="3"/>
+    <text x="925" y="191" font-size="11" font-weight="600" fill="white" text-anchor="middle">18 DAYS</text>
+
+    <text x="1050" y="192" fill="#333">William</text>
+  </g>
+
+  <!-- Grid Row 2 (Off-White) -->
+  <rect y="220" width="1200" height="60" fill="#E8EEF6"/>
+  <line x1="0" y1="280" x2="1200" y2="280" stroke="#ddd" stroke-width="1"/>
+
+  <g font-size="13">
+    <text x="40" y="252" fill="#0D1C38" font-weight="500">Capitol Medical</text>
+    <text x="400" y="252" fill="#333">555 Commerce Blvd, Denver, CO</text>
+
+    <!-- Soon Badge -->
+    <rect x="890" y="232" width="70" height="28" fill="#C5A84C" rx="3"/>
+    <text x="925" y="251" font-size="11" font-weight="600" fill="white" text-anchor="middle">42 DAYS</text>
+
+    <text x="1050" y="252" fill="#333">Steven</text>
+  </g>
+
+  <!-- Grid Row 3 (White) -->
+  <rect y="280" width="1200" height="60" fill="white"/>
+  <line x1="0" y1="340" x2="1200" y2="340" stroke="#E8EEF6" stroke-width="1"/>
+
+  <g font-size="13">
+    <text x="40" y="312" fill="#0D1C38" font-weight="500">Union Logistics</text>
+    <text x="400" y="312" fill="#333">1200 Port Terminal Rd, Long Beach, CA</text>
+
+    <!-- OK Badge -->
+    <rect x="890" y="292" width="70" height="28" fill="#22c55e" rx="3"/>
+    <text x="925" y="311" font-size="11" font-weight="600" fill="white" text-anchor="middle">156 DAYS</text>
+
+    <text x="1050" y="312" fill="#333">Marc</text>
+  </g>
+
+  <!-- Grid Row 4 (Off-White) -->
+  <rect y="340" width="1200" height="60" fill="#E8EEF6"/>
+  <line x1="0" y1="400" x2="1200" y2="400" stroke="#ddd" stroke-width="1"/>
+
+  <g font-size="13">
+    <text x="40" y="372" fill="#0D1C38" font-weight="500">Pinnacle Tech</text>
+    <text x="400" y="372" fill="#333">333 Enterprise Drive, Austin, TX</text>
+
+    <!-- OK Badge -->
+    <rect x="890" y="352" width="70" height="28" fill="#22c55e" rx="3"/>
+    <text x="925" y="371" font-size="11" font-weight="600" fill="white" text-anchor="middle">203 DAYS</text>
+
+    <text x="1050" y="372" fill="#333">Andrew</text>
+  </g>
+
+  <!-- Bottom Info -->
+  <text x="40" y="430" font-size="12" fill="#5A6E82">Showing 4 of 12 leases</text>
+
+  <!-- Footer -->
+  <rect y="750" width="1200" height="50" fill="#E8EEF6"/>
+  <text x="600" y="782" font-size="11" fill="#5A6E82" text-anchor="middle">© 2026 PRINGROUP Commercial Real Estate Brokerage</text>
+
+  <!-- Title Label -->
+  <text x="600" y="460" font-size="18" font-weight="bold" fill="#1E2F56" text-anchor="middle">OPTION 3: MODERN HEADER (BADGE LOGO)</text>
+  <text x="600" y="490" font-size="12" fill="#5A6E82" text-anchor="middle">Dark Navy header • Minimal design • Logo as Gold badge (PG) • Tech-forward feel</text>
+</svg>
