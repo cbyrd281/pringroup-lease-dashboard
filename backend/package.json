@@ -1,28 +1,19 @@
 {
   "name": "pringroup-lease-dashboard-backend",
   "version": "1.0.0",
-  "description": "Backend API for Pringroup Lease Dashboard (CYL-2699)",
   "type": "module",
   "main": "backend-starter.js",
   "scripts": {
     "start": "node backend-starter.js",
-    "dev": "nodemon backend-starter.js",
-    "migrate": "psql $DATABASE_URL -f db-migration.sql",
-    "test": "echo \"No tests configured yet\""
+    "dev": "node --watch backend-starter.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "pg": "^8.10.0",
+    "pg": "^8.11.1",
     "dotenv": "^16.3.1",
-    "axios": "^1.6.0",
-    "aws-sdk": "^2.1500.0"
+    "uuid": "^9.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "author": "Pringroup",
-  "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   }
